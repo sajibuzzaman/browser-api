@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Storage</title>
+  </head>
+
+  <body>
+    <h1>Explore Local Storage</h1>
+    <input type="text" name="product-name" placeholder="Enter Product Name" id="productName">
+    <input type="text" name="product-price" placeholder="Enter Product Price" id="productPrice">
+    <button onclick="addCart()" type="submit" id="addCart">Add to Cart</button> <br> <br>
+    <ul id="products">
+
+    </ul>
+    <button onclick="placeOrder()" type="submit">Place Order</button> <br><br><br>
+
+    <!-- Extra Feature -->
+    <button onclick="refresh()">Refresh</button><br> <br>
+    <button onclick="back()">Back</button>
+    <button onclick="forward()">Forward</button>
+
+    <!-- Link JavaScript -->
+    <script src="js/cart.js"></script>
+  </body>         
+</html>
+
